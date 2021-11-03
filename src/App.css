@@ -1,1 +1,110 @@
 /* Other rules */
+* {
+  box-sizing: border-box;
+}
+
+.all {
+  width: 100%;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header {
+  background-color: #273338;
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+  color: white;
+}
+
+.user {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+
+.accounts {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.color1 {
+  background-color: #1976d2;
+  border-radius: 10px;
+}
+
+.color2 {
+  background-color: #c2185b;
+  border-radius: 10px;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto 30px auto;
+}
+
+.operations:last-child {
+  margin-bottom: 0px;
+}
+
+.operations li {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+
+.operations li:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.operations li p:first-child {
+  width: 10%;
+  padding: 15px;
+}
+
+.operations li p:nth-child(2) {
+  width: 80%;
+  padding: 15px;
+}
+
+.operations li p:nth-child(3) {
+  width: 10%;
+  padding: 15px;
+}
+
+.button {
+  align-self: center;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+button {
+  width: 15%;
+  padding: 5px 5px;
+  background-color: #ffffff;
+}

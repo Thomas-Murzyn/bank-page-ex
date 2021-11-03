@@ -1,9 +1,13 @@
 import "./App.css";
+import Header from "./components/Header";
+import data from "./data.json";
+import Accounts from "./components/Accounts";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="all">
+      <Header username="Thomas" />
+      <Accounts data={data} />
     </div>
   );
 }
